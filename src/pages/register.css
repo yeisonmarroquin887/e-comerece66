@@ -1,0 +1,64 @@
+/* Restar el 100vh al navbar */
+.form__sign-container{
+    background-color: rgb(212, 172, 172);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5em;
+}
+
+
+.form__sign-view{
+    background-color: rgb(243, 212, 212);
+    margin-top: 1rem;
+    max-width: 400px ;
+    padding: 2rem;
+    display: grid;
+    gap: 1.1rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+
+.form__sing-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__sign-label{
+    font-size: medium;
+    padding-bottom: .3rem;
+    color: rgb(245, 11, 11) ;
+}
+
+.form__sign-input{
+    font-size: larger;
+    width: 100%;
+    padding: .2rem;
+    border: solid 1px rgb(184, 180, 180);
+    border-radius: 1em;
+    height: 1.8em;
+    text-align: center;
+}
+
+input:focus{
+    border-color: white;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(79, 81, 94, 0.6);
+    outline: 0 none;
+}
+
+
+.form__sign-submit{
+    background-color: red;
+    color: aliceblue;
+    border: transparent;
+    padding: .8rem;
+    cursor: pointer;
+    border-radius: 1em;
+}
+
+.form__sign-submit:hover{
+    background-color: rgb(153, 42, 42);
+}
+
