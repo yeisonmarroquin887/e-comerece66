@@ -52,7 +52,7 @@
     text-align: center;
     border: none;
     cursor: pointer;
-    background-color: var(--redMain);
+    background-color: red;
     color:white;
     border-radius: 1rem;
     grid-column: span 2;
