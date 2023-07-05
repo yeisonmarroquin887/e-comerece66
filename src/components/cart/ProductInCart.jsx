@@ -16,7 +16,7 @@ const ProductInCart = ({ prodCart }) => {
     return (
         <article className='prodcart'>
             <header className='prodcart__header'>
-                <img className='prodcart__img' src={prodCart.product.images[0].url} alt="" />
+                <img className='prodcart__img' src={prodCart?.product?.productImgs[0].url} alt="" />
             </header>
 
             

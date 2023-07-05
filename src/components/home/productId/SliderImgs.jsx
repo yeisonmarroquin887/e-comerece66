@@ -31,7 +31,7 @@ const SliderImgs = ({product}) => {
 
 
         {
-          product?.images.map(imgInfo => (
+          product?.productImgs.map(imgInfo => (
             <div key={imgInfo.id}  className='slider__img-container'>
               <img  
                 className='slider__img'  

@@ -6,7 +6,7 @@ const ProductPurchase = ({prodpurchase}) => {
   return (
         <article className="prodpurchase__container">
             <div className="prodpurchase__img-div">
-              <img className="prodpurchase__img" src={prodpurchase.product.images[0].url} alt="" />
+              <img className="prodpurchase__img" src={prodpurchase.product?.productImgs[0].url} alt="" />
             </div>
 
             <h3 className="prodpurchase__name">{prodpurchase.product.title}</h3>

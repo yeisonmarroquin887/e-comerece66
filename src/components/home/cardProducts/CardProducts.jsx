@@ -5,7 +5,6 @@ import useCrudCart from '../../../hooks/useCrudCart'
 
 
 const CardProducts = ({ product }) => {
-    console.log(product.productImgs)
     const navigate = useNavigate()
     const {addProductToCart} = useCrudCart()
 
