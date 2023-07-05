@@ -5,7 +5,7 @@ import useCrudCart from '../../../hooks/useCrudCart'
 
 
 const CardProducts = ({ product }) => {
-
+    console.log(product.productImgs)
     const navigate = useNavigate()
     const {addProductToCart} = useCrudCart()
 
@@ -25,8 +25,8 @@ const CardProducts = ({ product }) => {
     return (
         <article onClick={handleSelectProduct} className='product'>
             <header className='product__header'>
-                <img className='product__img product__img-1' src={product.images[0].url} alt="" />
-                <img className='product__img product__img-2' src={product.images[1].url} alt="" />
+            <img className='product__img product__img-1' src={product.productImgs[1].url} alt="" />
+                <img className='product__img product__img-2' src={product.productImgs[0].url} alt="" />
             </header>
             <section className='product__section'>
                 <h4 className='product__subtitle' >{product.brand}</h4>

@@ -5,7 +5,8 @@ import { useNavigate } from 'react-router-dom'
 import './simili.css'
 const SimilarProducts = ({ product }) => {
 
-    const url = `https://e-commerce-api-v2.academlo.tech/api/v1/products?categoryId=${product?.categoryId}`
+    const BASE_URL = import.meta.env.VITE_REACT_APP_URL
+    const url = `${BASE_URL}/products?categoris=${product?.categoryId}`
 
     const [filterProducts, getProductByCategory] = useFetch(url)
 
